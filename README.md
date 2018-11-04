@@ -9,8 +9,11 @@ docker hello world application
 # Make directory
 
 C:\Users\James>cd c:/
+
 c:\>mkdir helloworld
+
 c:\>cd helloworld
+
 c:\helloworld>
 
 # To run below steps you need git installed on your operating system
