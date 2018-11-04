@@ -26,4 +26,9 @@ docker-compose up
 
 # Open the chrome browser and paste the below URL
 
+http://127.0.0.1:8080/
+
+OR 
+
 http://localhost:8080/
+
