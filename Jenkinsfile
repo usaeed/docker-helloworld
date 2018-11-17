@@ -5,6 +5,8 @@ pipeline {
             steps {
                 bat 'dir' 
                 bat 'docker --version'
+                bat 'cd .\Jenkins-docker'
+                bat 'docker-compose up'
                 echo 'Building..'
             }
         }
