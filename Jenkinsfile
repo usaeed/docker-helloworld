@@ -6,7 +6,7 @@ pipeline {
                 bat 'dir' 
                 bat 'docker --version'
                 bat 'docker-compose up -d'
-                bat 'Start-Sleep -s 180'
+                bat 'sleep 180'
                 echo 'Building....'
             }
         }
