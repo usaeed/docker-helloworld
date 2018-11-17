@@ -6,7 +6,7 @@ pipeline {
                 bat 'dir' 
                 bat 'docker --version'
                 bat 'docker-compose up -d'
-                bat 'sleep 180'
+                bat 'PING -n 180 127.0.0.1>nul'
                 echo 'Building....'
             }
         }
