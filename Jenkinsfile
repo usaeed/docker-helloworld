@@ -6,12 +6,13 @@ pipeline {
                 bat 'dir' 
                 bat 'docker --version'
                 bat 'docker-compose up -d'
-                echo 'Building..'
+                bat 'Start-Sleep -s 180'
+                echo 'Building....'
             }
         }
         stage('Test') {
             steps {
-                echo 'Testing..'
+                echo 'Testing....'
             }
         }
         stage('Deploy') {
