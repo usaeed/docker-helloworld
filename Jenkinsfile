@@ -5,7 +5,7 @@ pipeline {
             steps {
                 bat 'dir' 
                 bat 'docker --version'
-                bat 'docker-compose up'
+                bat 'docker-compose up -d'
                 echo 'Building..'
             }
         }
